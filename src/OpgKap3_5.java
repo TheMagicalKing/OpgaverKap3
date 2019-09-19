@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class OpgKap3_2 {
+public class OpgKap3_5 {
 
     public static void main(String[] args) {
 

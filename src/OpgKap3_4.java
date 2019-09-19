@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class OpgKap3_1 {
+public class OpgKap3_4 {
 
     /*write a program that randomly generates a number corresponding to a month
     i.e. 3 = march, 5 = may, 1 = january
