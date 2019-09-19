@@ -14,6 +14,14 @@ public class OpgKap3_6 {
 
         double bodyMassIndex = weight*0.45359237/((goodInch*0.0254)*(goodInch*0.0254));
         System.out.println("Your BMI is " + bodyMassIndex);
+        if (bodyMassIndex < 18.5)
+            System.out.println("Underweight");
+        else if (bodyMassIndex < 25)
+            System.out.println("Normal");
+        else if (bodyMassIndex < 30)
+            System.out.println("Overweight");
+        else
+            System.out.println("Obese");
     }
 
 }
