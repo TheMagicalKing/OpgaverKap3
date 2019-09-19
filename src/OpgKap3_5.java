@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 public class OpgKap3_5 {
 
@@ -5,9 +6,12 @@ public class OpgKap3_5 {
 
         Scanner input = new Scanner(System.in);
 
-
+        System.out.println("This program tells you what day of the week you have and what day of the week you'll get after x amount of days");
+        System.out.println("The week start on Sunday so Sunday is 1, Monday is 2, Tuesday is 3, so on and so forth");
+        System.out.println("Please input the day of the weeks in numbers");
         int nextInputa = input.nextInt();
         nextInputa -= 1;
+        System.out.println("Please input the amount of days you'd like to look into the 'future' so we can tell you which day it is in x amount of days.");
         int nextInputb = input.nextInt();
 
         switch (nextInputa){
